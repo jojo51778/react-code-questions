@@ -1,13 +1,12 @@
-import { useRoutes } from 'react-router-dom';
+import Dashboard from '../views/Dashboard.jsx';
 import Counter from '../views/Counter.jsx';
 
-const routes = useRoutes([
+const routes = [
   {
     path: '/',
-    element: <Counter />,
-    children: [{ path: '/counter', element: <Counter /> }],
+    element: <Dashboard />,
   },
   { path: '/counter', element: <Counter /> },
-]);
+];
 
 export default routes;
