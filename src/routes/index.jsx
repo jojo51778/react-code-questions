@@ -1,6 +1,6 @@
-import Counter from '../views/Counter.jsx';
-import Timeout from '../views/Timeout.jsx';
-import FirstRender from '../views/FirstRender.jsx';
+import Counter from '../views/react/Counter.jsx';
+import Timeout from '../views/react/Timeout.jsx';
+import FirstRender from '../views/react/FirstRender.jsx';
 
 const routes = [
   { path: '/counter', element: <Counter />, name: 'Counter' },
