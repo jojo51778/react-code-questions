@@ -5,6 +5,7 @@ function useTimeout(callback, deley) {
   callbackRef.current = callback;
   useEffect(() => {
     // callbackRef.current is to keep callback up to date
+    // When to use refs: https://react.dev/learn/referencing-values-with-refs#when-to-use-refs
     const handler = setTimeout(() => callbackRef.current(), deley);
     return () => {
       clearTimeout(handler);
