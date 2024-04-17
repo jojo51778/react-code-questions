@@ -3,11 +3,12 @@
   grid-template-columns: repeat(5, 1fr);
 }
 .img-box {
+
   /* display: flex;
   flex-direction: column;
   margin-right: 5px;
   width: 20%; */
 }
 img {
-  /* object-fit:fill */
+  max-width: 100%;
 }
