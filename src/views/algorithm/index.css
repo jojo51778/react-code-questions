@@ -1,14 +1,11 @@
 .img-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  margin: 0 auto;
+  column-count: 5;
+  column-gap: 2em;
 }
 .img-box {
-
-  /* display: flex;
-  flex-direction: column;
-  margin-right: 5px;
-  width: 20%; */
+  break-inside: avoid;
 }
 img {
-  max-width: 100%;
+  width: 100%;
 }
