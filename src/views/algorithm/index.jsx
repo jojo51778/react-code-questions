@@ -12,7 +12,7 @@ const group = ['js','react', 'string', 'array', 'two-points','dp', 'window', 'ma
 function Algorithm() {
   const [imgs, setImgs] = useState(imgArr);
   function changeGroup(value) {
-    const arr = imgArr.filter(item=> item.name.includes(value))
+    const arr = imgArr.filter(item=> item.name.toLowerCase().includes(value))
     setImgs(arr);
   }
   return (
