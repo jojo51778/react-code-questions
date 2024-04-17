@@ -8,7 +8,7 @@ let imgArr = Object.keys(files).map(fileName => {
     src: files[fileName].default, 
   }
 });
-const group = ['js','react', 'string', 'array', 'two-points','dp', 'window', 'map','stack', 'link', 'binary', 'matrix','intervals',  'graph', ]
+const group = ['js','react', 'string', 'array','mid', 'two-points','dp', 'window', 'map','stack', 'link', 'binary', 'matrix','intervals',  'graph', ]
 function Algorithm() {
   const [imgs, setImgs] = useState(imgArr);
   function changeGroup(value) {
